@@ -82,5 +82,30 @@ int main () {
     }
     //////////////////////////////////////////////////////////////////
 
+    //vector<string> (list of words / names)
+    int n;
+    cin >> n;
+    vector<string> names(n);
+    for (int i = 0; i < n; i++) {
+    cin >> names[i];
+    }
+    //////////////////////////////////////////////////////////////////
 
+    //map / unordered_map
+    //Count frequencies, etc.
+    int n;
+    cin >> n;
+    unordered_map<int,int> freq;
+    for (int i = 0; i < n; i++) {
+        int x;
+        cin >> x;
+        freq[x]++;
+    }
+    //////////////////////////////////////////////////////////////////
+
+
+    //Simple output 
+    cout << x << " " << y << "\n";
+    //Precision for doubles
+    cout << fixed << setprecision(6) << ans << "\n";
 }
