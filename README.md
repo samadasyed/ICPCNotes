@@ -8,4 +8,4 @@ Included are
   - Sliding window implementations
   - Vector usage
   - Binary search (Vanilla and Monotonic)
-  - Linked List
+  - Palindrome Implementations (Because that weirdly comes up a good amount?) 
