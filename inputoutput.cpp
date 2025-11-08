@@ -50,8 +50,11 @@ int main () {
         cin >> a[i];
     }
     //////////////////////////////////////////////////////////////////
-    //2D Vector (matrix)
     
+    //2D VECTOR (MATRIX OF INTS)
+    //Input:
+    //n m
+    //(n rows each with m ints)
     int n, m;
     cin >> n >> m;
     vector<vector<int>> grid(n, vector<int>(m));
