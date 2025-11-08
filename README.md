@@ -7,5 +7,4 @@ Included are
   - Two pointer implementations
   - Sliding window implementations
   - Vector usage
-  - Binary search (Vanilla and Monotonic)
   - Palindrome Implementations (Because that weirdly comes up a good amount?) 
